@@ -1,5 +1,8 @@
 // gitprofile.config.ts
-
+{
+  base: '/',
+  // ...
+}
 const CONFIG = {
   github: {
     username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
