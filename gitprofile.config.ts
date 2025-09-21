@@ -29,13 +29,13 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Oral Presentation',
+      header: 'Presentation',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Integrating multi-omics data to identify lung-tissue-specific susceptibility proteins for lung cancer risk',
           description:
-            'Presenting at 2025 American Society for Human Genetics Annuak Meeting',
+            'Oral Presenting at 2025 American Society for Human Genetics Annuak Meeting',
           imageUrl:
             '',
           link: '',
