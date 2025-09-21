@@ -53,11 +53,11 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Shuai Xu', description: '', imageURL: '' },
   social: {
-    ORCID: '',
-    researchGate: '',
+    ORCID: 'https://orcid.org/0000-0002-7798-5720',
+    researchGate: 'https://www.researchgate.net/profile/Shuai-Xu-35',
     website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'shuai.xu.1@vanderbilt.edu',
   },
   resume: {
     fileUrl:
@@ -70,27 +70,20 @@ const CONFIG = {
     'Terra',
     'PLINK',
     'Unix',
+    'VCFtools',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'Vanderbilt University Medical Center',
+      position: 'Research Analyst I',
+      from: 'Sep 2021',
+      to: 'Aug 2022',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Washington University School of Medicine',
+      position: 'Statistical Analyst',
+      from: 'Jun 2020',
+      to: 'Sep 2021',
     },
   ],
   educations: [
@@ -109,30 +102,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Breast Cancer Incidence Among US Women Aged 20 to 49 Years by Race, Stage, and Hormone Receptor Status',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      journalName: 'JAMA Network Open',
+      authors: 'Shuai Xu, Sara Murtagh, Yunan Han, Fei Wan, Adetunji T Toriola',
+      link: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814306',
     },
     {
       title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+      conferenceName: '',
+      journalName: 'British Journal of Cancer',
+      authors: 'Yaohua Yang, Shuai Xu, Guochong Jia, Fangcheng Yuan, Jie Ping, Xingyi Guo, Ran Tao, Xiao-Ou Shu, Wei Zheng, Jirong Long, Qiuyin Cai',
+      link: 'https://www.nature.com/articles/s41416-023-02419-3',
+      description:'co-first author',
+      },
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
