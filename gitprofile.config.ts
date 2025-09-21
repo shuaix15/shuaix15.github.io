@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -29,24 +29,16 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Oral Presentation',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Integrating multi-omics data to identify lung-tissue-specific susceptibility proteins for lung cancer risk',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Presenting at 2025 American Society for Human Genetics Annuak Meeting',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
       ],
     },
@@ -90,8 +82,8 @@ const CONFIG = {
     {
       institution: 'Vanderbilt University',
       degree: 'PhD, Genetic and Molecular Epidemiology',
-      from: '2022',
-      to: '2026',
+      from: 'Aug 2022',
+      to: 'May 2026',
     },
     {
       institution: 'Washington University in St. Louis',
@@ -108,6 +100,14 @@ const CONFIG = {
       authors: 'Shuai Xu, Sara Murtagh, Yunan Han, Fei Wan, Adetunji T Toriola',
       link: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814306',
     },
+    {
+      title: 'Integrating genomics and proteomics data to identify candidate plasma biomarkers for lung cancer risk among European descendants',
+      conferenceName: '',
+      journalName: 'British Journal of Cancer',
+      authors: 'Yaohua Yang, Shuai Xu, et al',
+      link: 'https://www.nature.com/articles/s41416-023-02419-3',
+      description:'co-first author',
+      },
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -138,17 +138,14 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light'
-    ],
+    
   },
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href=""
       target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+      rel="noreferrer",
 
   enablePWA: true,
 };
