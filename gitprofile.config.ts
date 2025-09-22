@@ -29,7 +29,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Projects',
+      header: 'Oral Presentation',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -139,7 +139,44 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    
+    themes: [
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'dim',
+      'nord',
+      'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
+      'procyon',
+    ],
   },
 
   // Optional Footer. Supports plain text or HTML.
@@ -147,7 +184,7 @@ const CONFIG = {
       class="text-primary" href=""
       target="_blank"
       rel="noreferrer",
-
+  >GitProfile</a>,
   enablePWA: true,
 };
 
