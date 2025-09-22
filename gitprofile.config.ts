@@ -109,14 +109,6 @@ const CONFIG = {
       link: 'https://www.nature.com/articles/s41416-023-02419-3',
       description:'co-first author',
       },
-    {
-      title: 'A proteome-wide association study identifies putative causal proteins for breast cancer risk',
-      conferenceName: '',
-      journalName: 'British Journal of Cancer',
-      authors: 'Tianying Zhao, Shuai Xu, et al',
-      link: 'https://www.nature.com/articles/s41416-023-02419-3',
-      description:'co-first author',
-      },
   ],
   // Display articles from your medium or dev account. (Optional)
   googleAnalytics: {
