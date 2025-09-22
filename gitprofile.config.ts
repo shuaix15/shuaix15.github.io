@@ -29,7 +29,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Presentation',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -46,7 +46,7 @@ const CONFIG = {
   seo: { title: 'Portfolio of Shuai Xu', description: '', imageURL: '' },
   social: {
     ORCID: 'https://orcid.org/0000-0002-7798-5720',
-    researchGate: 'https://www.researchgate.net/profile/Shuai-Xu-35',
+    researchGate: 'https://www.researchgate.net/Shuai-Xu-35',
     website: '',
     phone: '',
     email: 'shuai.xu.1@vanderbilt.edu',
@@ -63,6 +63,7 @@ const CONFIG = {
     'PLINK',
     'Unix',
     'VCFtools',
+    'SAS',
   ],
   experiences: [
     {
@@ -97,7 +98,7 @@ const CONFIG = {
       title: 'Breast Cancer Incidence Among US Women Aged 20 to 49 Years by Race, Stage, and Hormone Receptor Status',
       conferenceName: '',
       journalName: 'JAMA Network Open',
-      authors: 'Shuai Xu, Sara Murtagh, Yunan Han, Fei Wan, Adetunji T Toriola',
+      authors: 'Shuai Xu, Sara Murtagh, et al',
       link: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814306',
     },
     {
@@ -109,10 +110,10 @@ const CONFIG = {
       description:'co-first author',
       },
     {
-      title: 'Publication Title',
+      title: 'A proteome-wide association study identifies putative causal proteins for breast cancer risk',
       conferenceName: '',
       journalName: 'British Journal of Cancer',
-      authors: 'Yaohua Yang, Shuai Xu, Guochong Jia, Fangcheng Yuan, Jie Ping, Xingyi Guo, Ran Tao, Xiao-Ou Shu, Wei Zheng, Jirong Long, Qiuyin Cai',
+      authors: 'Tianying Zhao, Shuai Xu, et al',
       link: 'https://www.nature.com/articles/s41416-023-02419-3',
       description:'co-first author',
       },
